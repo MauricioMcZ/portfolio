@@ -1,7 +1,6 @@
-DISPLAY_NAME=Portfolio McZ
-DESCRIPTION=...
+DISPLAY_NAME=Site Portfolio
 MAIN=index.html
-MEMORY=1000
+MEMORY=1024
 SUBDOMAIN=mauriciosouza
 VERSION=recommended
 AUTORESTART=true
