@@ -2,7 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 
 html {
+    color: var(--cor-branca);
     font-size: 62.5%;
     font-weight: 300;
-    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-fundo-cinza-escuro);
 }
