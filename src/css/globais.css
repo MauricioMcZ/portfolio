@@ -81,9 +81,10 @@ body {
     padding: 10px 20px;
     border-radius: 20px;
     transition: all 0.3s ease;
+    background-color: var(--cor-primaria);
 }
 
 .botao:hover {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-segundaria);
     color: var(--cor-branca)
 }

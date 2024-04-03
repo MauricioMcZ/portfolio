@@ -12,4 +12,41 @@
 .sobre-mim .imagem-sobre-mim .img {
     border: 10px solid transparent;
     border-radius: 15px;
-} 
+}
+
+.sobre-mim .informaçoes-sobre-mim {
+    max-width: 50%;
+    padding: 0 25px;
+}
+
+.sobre-mim .informaçoes-sobre-mim .botoes {
+    margin-top: 50px;
+}
+
+.sobre-mim .informaçoes-sobre-mim p {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1280px) {
+    .sobre-mim .row {
+        justify-content: center;
+    }
+
+    .sobre-mim .imagem-sobre-mim {
+        max-width: 100%;
+        padding: 0 var(--mobile-padding);
+        margin-bottom: 50px;
+    }
+
+    .sobre-mim .informaçoes-sobre-mim {
+        padding: 0 var(--mobile-padding);
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .sobre-mim .informaçoes-sobre-mim {
+        max-width: 100%;
+    }
+}
