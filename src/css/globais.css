@@ -77,14 +77,34 @@ body {
 }
 
 .botao {
-    font-size: var(--fonte-grande);
-    padding: 10px 20px;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    background-color: var(--cor-primaria);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 8px #0000005a;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
-.botao:hover {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branca)
+
+.botao::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    left: -100px;
+    top: 100%;
+    background-color: var(--cor-primaria);
+    position: absolute;
 }
+
+.botao:hover::before {
+    animation: desloca 0.5s ;
+    left: 0;
+    top: 0;
+}
+
