@@ -85,6 +85,6 @@ body {
 }
 
 .botao:hover {
-    background-color: var(--cor-segundaria);
+    background-color: var(--cor-secundaria);
     color: var(--cor-branca)
 }

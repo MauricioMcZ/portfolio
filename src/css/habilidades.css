@@ -26,7 +26,7 @@
 
 .habilidades .container-habilidades .habilidade p {
     font-size: 1.8rem;
-    font-family: var(--fonte-segundaria);
+    font-family: var(--fonte-secundaria);
 }
 
 .habilidades .container-habilidades .habilidade i {
