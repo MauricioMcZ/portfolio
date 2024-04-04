@@ -12,6 +12,9 @@
 .habilidades .container-habilidades .habilidade h3,
 .habilidades .container-habilidades .habilidade .logo {
     transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-tranimation: all 0.3s ease;
 }
 
 .habilidades .container-habilidades .habilidade h3 {
