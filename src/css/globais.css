@@ -88,6 +88,7 @@ body {
     font-size: 30px;
     position: relative;
     overflow: hidden;
+    background-color: var(--cor-fundo-cinza-claro);
 }
 
 
