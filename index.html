@@ -172,53 +172,48 @@
       </div>
     </div>
 
-    <div class="container-projetos container">
-      <div class="projeto">
-        <a href="#">
-          <img src="https://via.placeholder.com/515x700" alt="Projeto 1">
-          <h3>projeto 1</h3>
-          <div class="informacoes-projeto">
-            <p>Em breve...</p>
-            <p>📎Ver no GitHub Pages</p>
-            <p>📎Ver Codigo no GitHub</p>
+    <div class="container-cards">
+
+      <div class="container-projetos">
+        <div class="card">
+          <div class="content">
+            <h2>01</h2>
+            <h3>Projeto 01</h3>
+            <p>
+              Em breve..
+            </p>
+            <a href="#">Ver no Github</a>
+            <a href="#">Ver no Pages</a>
           </div>
-        </a>
+        </div>
       </div>
 
-      <div class="projeto">
-        <a href="#">
-          <img src="https://via.placeholder.com/515x700" alt="Projeto 2">
-          <h3>Projeto 2</h3>
-          <div class="informacoes-projeto">
-            <p>Em breve...</p>
-            <p>📎Ver no GitHub Pages</p>
-            <p>📎Ver Codigo no GitHub</p>
+      <div class="container-projetos">
+        <div class="card">
+          <div class="content">
+            <h2>02</h2>
+            <h3>Projeto 2</h3>
+            <p>
+              Em breve..
+            </p>
+            <a href="#">Ver no Github</a>
+            <a href="#">Ver no Pages</a>
           </div>
-        </a>
+        </div>
       </div>
 
-      <div class="projeto">
-        <a href="#">
-          <img src="https://via.placeholder.com/515x700" alt="Projeto 3">
-          <h3>Projeto 3</h3>
-          <div class="informacoes-projeto">
-            <p>Em breve...</p>
-            <p>📎Ver no GitHub Pages</p>
-            <p>📎Ver Codigo no GitHub</p>
+      <div class="container-projetos">
+        <div class="card">
+          <div class="content">
+            <h2>03</h2>
+            <h3>Projeto 03</h3>
+            <p>
+              Em breve..
+            </p>
+            <a href="#">Ver no Github</a>
+            <a href="#">Ver no Pages</a>
           </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <a href="#">
-          <img src="https://via.placeholder.com/515x700" alt="Projeto 4">
-          <h3>Projeto 4</h3>
-          <div class="informacoes-projeto">
-            <p>Em breve...</p>
-            <p>📎Ver no GitHub Pages</p>
-            <p>📎Ver Codigo no GitHub</p>
-          </div>
-        </a>
+        </div>
       </div>
     </div>
   </section>
@@ -245,5 +240,15 @@
       </div>
     </div>
   </footer>
+
+  <script type="text/javascript" src="./src/javascript/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 0.2,
+    });
+  </script>
 </body>
 </html>
