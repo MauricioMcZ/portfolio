@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vh;
+
     background: #161623;
     font-size: 15px;
     margin: 0;
@@ -86,9 +86,8 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-
-@media(max-width: 1200px) {
-    .projetos .container-projetos {
-        padding: 0 var(--mobile-padding);
+@media(max-width: 768px) {
+    .container-cards {
+        padding: var(--mobile-padding);
     }
 }
