@@ -39,6 +39,9 @@
 
 .botao-cv {
     color: var(--cor-primaria);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes desloca {
